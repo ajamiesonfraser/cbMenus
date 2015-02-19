@@ -30,20 +30,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'restaurantsCtrl'
   })
 
-  .state('app.search', {
-    url: "/search",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/search.html"
-      }
-    }
-  })
 
-  .state('app.browse', {
-    url: "/browse",
+  .state('app.bytype', {
+    url: "/bytype",
     views: {
       'menuContent': {
-        templateUrl: "templates/browse.html"
+        templateUrl: "templates/bytype.html"
       }
     }
   })

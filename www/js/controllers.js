@@ -11,7 +11,7 @@ angular.module('starter.controllers', [])
     { title: 'Crown & Moose Pub', id: 5, type:"Pub" },
     { title: "Daniel's Pub", id: 6, type: "Pub" },
     { title: "Doktor Luke's", id: 7, type:"Cafe"},
-    { title: 'Downtown Nutrition', id: 8, type: "" },
+    { title: 'Downtown Nutrition', id: 8, type: "Cafe" },
     { title: 'Embers Southern Barbeque', id: 9, type: "Pub" },
     { title: 'Flavor 19', id: 10, type:"Modern" },
     { title: 'Flavor Downtown', id: 11, type:"Modern" },

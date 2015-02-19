@@ -1,0 +1,6 @@
+
+create table restaurants(
+restaurantid serial primary key,
+name text,
+type text,
+menulink text);

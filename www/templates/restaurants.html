@@ -15,8 +15,8 @@
         </button>
       </div>
       <ion-list ng-repeat="restaurant in restaurants | filter: data.searchQuery">
-      <ion-item  on-swipe-left="onSwipeLeft()" href="#/app/restaurants/{{restaurant.id}}">
-        {{restaurant.title}}
+      <ion-item  href="#/app/restaurants/{{restaurant.restaurantid}}">
+        {{restaurant.name}}
       </ion-item>
     </ion-list>
   </ion-content>

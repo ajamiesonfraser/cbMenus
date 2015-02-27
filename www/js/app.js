@@ -57,7 +57,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'restaurantCtrl'
       }
     }
-  });
+  })
+      .state('app.camera', {
+        url: '/camera',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/camera.html',
+            controller: 'CameraCtrl'
+          }
+        }
+      });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/restaurants');
 });
